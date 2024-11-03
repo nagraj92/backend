@@ -31,7 +31,7 @@ agent any
                             groupId: 'com.expensee',
                             version:  "${appVersion}",
                             repository: 'backend',
-                            credentialsId: 'nexus_cred',
+                            credentialsId: 'nexus_auth',
                             artifacts: [
                                 [artifactId: "backend",
                                  classifier: '',
