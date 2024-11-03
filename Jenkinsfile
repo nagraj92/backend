@@ -26,13 +26,13 @@ agent any
                             protocol: 'http',
                             nexusUrl: 'localhost:8081',
                             groupId: 'com.expensee',
-                            version:  "    ${appVersion}",
+                            version:  "${appVersion}",
                             repository: 'backend',
                             credentialsId: 'nexus_cred',
                             artifacts: [
                                 [artifactId: projectName,
                                  classifier: '',
-                                 file: 'backend-' +" ${appVersion}" + '.jar',
+                                 file: 'backend-' +"${appVersion}" + '.jar',
                                  type: 'jar']
         ]
      )
