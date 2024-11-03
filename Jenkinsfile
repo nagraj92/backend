@@ -33,7 +33,7 @@ agent any
                             repository: 'backend',
                             credentialsId: 'nexus_cred',
                             artifacts: [
-                                [artifactId: projectName,
+                                [artifactId: "backend",
                                  classifier: '',
                                  file: 'backend-' +"${appVersion}" + '.jar',
                                  type: 'jar']
