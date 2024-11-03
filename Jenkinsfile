@@ -35,8 +35,8 @@ agent any
                             artifacts: [
                                 [artifactId: "backend",
                                  classifier: '',
-                                 file: 'backend-' +"${appVersion}" + '.jar',
-                                 type: 'jar']
+                                 file: 'backend-' +"${appVersion}" + '.zip',
+                                 type: 'zip']
         ]
      )
 
