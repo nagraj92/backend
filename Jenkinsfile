@@ -27,7 +27,7 @@ agent any
                  nexusArtifactUploader(
                             nexusVersion: 'nexus3',
                             protocol: 'http',
-                            nexusUrl: '192.168.56.1:8081',
+                            nexusUrl: 'http://192.168.56.1:8081',
                             groupId: 'com.expensee',
                             version:  "${appVersion}",
                             repository: 'backend',
