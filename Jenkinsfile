@@ -1,5 +1,8 @@
 pipeline{
 agent any
+    environment{
+    def appVersion = ''
+    }
     stages{
         stage('read the version'){
         steps{
